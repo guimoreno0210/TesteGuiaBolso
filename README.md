@@ -6,3 +6,4 @@ npm install
 
 # 2º Passo
 npm start
+o projeto iniciará em localhost
