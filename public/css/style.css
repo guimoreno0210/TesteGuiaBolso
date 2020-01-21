@@ -1,0 +1,95 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none; 
+}
+body {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    background: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+#menucategories div {
+    padding: 0; 
+}
+#menucategories div.col-xs-8.col-sm-6.col-md-12.pull-right {
+    display: flex;
+    justify-content: center; 
+}
+#menucategories ul {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    background-color: #00BEFF;
+    color: #fff;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+@media (max-width: 768px) {
+    #menucategories ul {
+        height: auto;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column; 
+    } 
+}
+#menucategories ul li {
+    padding: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em; 
+}
+#menucategories ul li:hover {
+    background: #0076FF;
+    cursor: pointer;
+    color: white; 
+}
+@media (max-width: 768px) {
+    #menucategories ul li:hover {
+        width: 100%; 
+    } 
+}
+.contentjoke h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0076FF;
+    margin-top: 100px;
+}
+.contentjoke h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background: #999;
+    padding: 20px;
+    border-radius: 5px;
+}
+.contentjoke h3 {
+    font-size: 15px;
+    font-weight:lighter ;
+    color: #262626;
+    padding: 10px;
+}
+.contentjoke button {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #004a63, #0076ff);
+    display: flex;
+}
+@media (max-width: 768px) {
+    .contentjoke {
+        width: 100%;
+        padding: 40px !important;
+    } 
+}
+
